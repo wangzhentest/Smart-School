@@ -1,0 +1,20 @@
+2023-11-20 09:11:29.863  INFO 21604 --- [main] c.e.s.SmartCampusBackendApplication      : Starting SmartCampusBackendApplication using Java 1.8.0_202 on Diego-Laptop with PID 21604 (D:\下载\smart_campus_backend\target\classes started by Diego in D:\下载\smart_campus_backend)
+2023-11-20 09:11:29.869  INFO 21604 --- [main] c.e.s.SmartCampusBackendApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-11-20 09:11:30.744  INFO 21604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-20 09:11:30.751  INFO 21604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-20 09:11:30.751  INFO 21604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-11-20 09:11:30.924  INFO 21604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-20 09:11:30.924  INFO 21604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1023 ms
+2023-11-20 09:11:31.477  INFO 21604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-20 09:11:31.484  INFO 21604 --- [main] c.e.s.SmartCampusBackendApplication      : Started SmartCampusBackendApplication in 2.062 seconds (JVM running for 4.156)
+2023-11-20 09:11:46.363  INFO 21604 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-20 09:11:46.363  INFO 21604 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-20 09:11:46.366  INFO 21604 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-11-20 09:11:46.444  INFO 21604 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-20 09:11:46.855  INFO 21604 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-20 09:11:46.948  INFO 21604 --- [http-nio-8081-exec-1] c.e.s.controller.LoginController         : Some body login success! account:123;pwd:123
+2023-11-20 09:11:47.188  INFO 21604 --- [http-nio-8081-exec-4] c.e.s.controller.LoginController         : 4455663322 is online
+2023-11-20 09:15:26.157  INFO 21604 --- [http-nio-8081-exec-9] c.e.s.controller.LoginController         : Get Camera List ...
+2023-11-20 09:15:44.222  INFO 21604 --- [http-nio-8081-exec-10] c.e.s.controller.LoginController         : Get Camera List ...
+2023-11-20 09:17:57.438  INFO 21604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-20 09:17:57.446  INFO 21604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
